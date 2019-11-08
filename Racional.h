@@ -2,6 +2,7 @@
  * n\'umeros racionales.
  */
 #ifndef RACIONAL_H
+#define RACIONAL_H
 struct Racional{
   int num;
   int den;
