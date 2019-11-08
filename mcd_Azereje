@@ -1,0 +1,33 @@
+//Metodo de Euclides
+//Flores Negrete Azereth 1MM1
+#include "stdio.h" 
+#include "stdlib.h"
+int x,y,mcd;
+int n1,n2;	
+
+int MCD() {
+n1=x;
+	n2=y;
+
+	while(n1!=n2){
+		if (n1>n2)
+		n1 -= n2;
+		else
+		n2 -= n1;
+	}
+	mcd=n1;
+	printf("El M.C.D. de %d y %d es %d\n", x, y, mcd);
+}//end MCD
+
+int main(){
+	
+	printf("Digite primer numero positivo:\n");
+	scanf("%d", &x);
+	printf("Digite segundo numero positivo\n");
+	scanf("%d", &y);
+
+    void(*Ap_MCD) (int,int);
+    Ap_MCD=&MCD;
+    Ap_MCD(x,y);
+return 1;	
+}
