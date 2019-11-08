@@ -18,7 +18,7 @@ int mcd(int n,int d)
   return N;
 }
 
-void mult_x_escalar(struct Fila *F_Pt,Racional *R_Pt)
+void mult_x_escalar(struct Fila *F_Pt,struct Racional *R_Pt)
 {
   //WRITE YOUR CODE HERE
 }
