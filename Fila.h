@@ -5,8 +5,8 @@
 struct Fila{
   int n;              /*longitud de la fila*/
   struct Racional *R_Pt;/*apunta a n Racionales*/
-  void (*mult)(struct Fila *,struct Racional*);/*multiplcar la fila por unn Racional*/
-  void (*print)();      /*imprime la fila*/
+  void (*mult)(struct Fila *,struct Racional *);/*multiplcar la fila por unn Racional*/
+  void (*print)(struct Fila *);      /*imprime la fila*/
 };/*end struct Fila*/
 #endif /*FILA_H*/
 

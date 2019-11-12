@@ -7,7 +7,7 @@
 
 int mcd(int,int);
 void mult_x_escalar(struct Fila *,struct Racional*);
-void print_Fila();
+void print_Fila(struct Fila *);
 
 int
 main(int argc,char *argv[])
