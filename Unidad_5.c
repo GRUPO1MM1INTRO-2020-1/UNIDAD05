@@ -28,7 +28,7 @@ main(int argc,char *argv[])
             fila.n*sizeof(struct Racional));
   *(fila.R_Pt+0)=R1;
   *(fila.R_Pt+1)=R2;
-  fila.print();
+  fila.print(&fila);
   fila.mult=&mult_x_escalar;
   fila.print=print_Fila;
   (*fila.mult)(&fila,&R3);
