@@ -19,11 +19,13 @@ int mcd(int n,int d)
   return N;
 }
 
+/*stub*/
 void mult_x_escalar(struct Fila *F_Pt,struct Racional *R_Pt)
 {
   //WRITE YOUR CODE HERE
 }
 
+/*stub*/
 void print_Fila(struct Fila *F_Pt)
 {
   //WRITE YOUR CODE HERE
