@@ -54,7 +54,7 @@ int f(int x, int y)
     }
     else
     {
-        v=2020640294;
+         v=(x*y)-(x*x-y);
     }
     return v;
 
